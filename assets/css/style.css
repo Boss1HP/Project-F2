@@ -85,11 +85,13 @@ body {
 .header .btn {
     background: #171100;
     width: 144px;
-}
-
-.header .sign-up {
     color: #fff;
     font-size: 1.6rem;
     font-weight: 600;
-    line-height: 1.75;
+    line-height: 3.125;
+}
+
+.header .btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }
